@@ -1,0 +1,19 @@
+i, j, k;
+{
+	input i;
+  	i = 42 ;
+  	j = i + 1; 
+	input k; 
+    SWITCH i {
+        CASE 40: { i = 0; output i; }
+        CASE 41: { i = 1; output i; }
+        CASE 42: { i = 2; output i; }
+        CASE 43: { i = 3; output i; }
+        DEFAULT: { i = 4; output i; }
+    }
+    k = i+2;
+    output i;
+    output j;
+    output k;
+}
+1 2 3

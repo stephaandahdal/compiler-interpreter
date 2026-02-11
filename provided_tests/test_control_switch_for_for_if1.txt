@@ -1,0 +1,30 @@
+i, j, k, a, b, c, d;
+{
+	input i;
+  	i = 42 ;
+  	j = i + 1; 
+	input k; 
+    SWITCH i {
+        CASE 40: { i = 0; output i; }
+        CASE 41: { i = 1; output i; }
+        CASE 42: {
+            FOR (a = 10; a > 0; a = a - 1;) {
+                b = 0-1;
+                d = 1;
+                FOR (c = 0; c < a; c = c + 1;) {
+                    d = d * b;
+                }
+                IF d <> b {
+                    output a;
+                }
+            }
+        }
+        CASE 43: { i = 3; output i; }
+        DEFAULT: { i = 4; output i; }
+    }
+    k = i+2;
+    output i;
+    output j;
+    output k;
+}
+1 2 3

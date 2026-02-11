@@ -1,0 +1,18 @@
+# Compiled binaries
+a.out
+parser
+*.o
+
+# Debug symbols (macOS)
+*.dSYM/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Test output files
+*.output
+
+# IDE
+.vscode/
